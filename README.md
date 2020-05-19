@@ -3,11 +3,11 @@
 AFAR (Assisted Focus Audio Reviewer) is a web application that transcribes in real-time audio inputs from a microphone attached to a speaker so that the user can read follow along with the speaker while wearing noise-canceling headphones to filter out the noise distractions. This allows the user to be either in a separate, distraction-free room or in the same room as the speaker but able to focus on the lecture.
 
 ### To run locally:
-Please install python3 and pyaudio using pip
+
+Please install python3 and pyaudio using pip. You may also need to install portaudio using your os package manager (e.g. Homebrew for MacOS). Execute run.sh as root to deploy the application locally. Please check setup.py for additional dependencies.
 
 ### Tech stack:
-
-jQuery, Bootstrap, Socket.io, Quill, Flask, flask-socket.io, rev.ai
+Made with Python, using jQuery, Bootstrap, Socket.io, Quill, Flask, flask-socket.io, rev.ai
 
 ### Inspiration:
 
